@@ -1,0 +1,21 @@
+
+Call:
+lm(formula = GSR ~ SUN + RF + RH, data = climate)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-9.6047 -1.9445 -0.0211  1.9089  9.7410 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.570318   0.195692   2.914  0.00357 ** 
+SUN          1.569515   0.007026 223.401  < 2e-16 ***
+RF          -0.022712   0.001247 -18.210  < 2e-16 ***
+RH           0.066375   0.002316  28.665  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.588 on 11883 degrees of freedom
+Multiple R-squared:  0.8389,	Adjusted R-squared:  0.8388 
+F-statistic: 2.062e+04 on 3 and 11883 DF,  p-value: < 2.2e-16
+
